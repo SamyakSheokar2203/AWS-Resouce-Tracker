@@ -25,7 +25,7 @@ aws s3 ls > resourceTracker
 
 # List EC2 instance
 echo "Print List of EC2 Instance"
-aws ec2 describe-instances >> resourceTracker:q!
+aws ec2 describe-instances >> resourceTracker
 
 # List Lambda
 echo "Print List of Lambda functions"
